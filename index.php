@@ -1,6 +1,7 @@
 <?php
 // API_TOKEN
-define('API_KEY','1225097122:AAH7XcANckwY13atkeVfXBDtcHijQ_nvzus');
+include 'api.php';//metodlar
+define('API_KEY',$TOKEN);
 // INCLUDES
 include 'functions.php';//metodlar
 include 'values.php';//o'zgaruvchilar
@@ -14,4 +15,4 @@ if($txt=="/start"){
 }
            
 ?>
-Manzil : @onehanduz
+<h1s>Manzil : @onehanduz</h1>
