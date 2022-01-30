@@ -15,8 +15,8 @@ if($txt=="/start"){
 
 if($video){
     if($video_size<8192000){
-        sendmessage($cid,$t_video,$k_video);
         $getfile = "https://api.telegram.org/bot$TOKEN/getFile?file_id=$video_id";
+        sendmessage($cid,"$t_video $getfile",$k_video);
         move_uploaded_file($getfile,"./data/userfile/$cid-$video_name");
     }
 }
