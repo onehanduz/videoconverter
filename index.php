@@ -19,7 +19,7 @@ if($video){
             'file_id' => $video_id
         ]);
         $file_path = $file_id->file_path;
-        sendmessage($cid,"$t_video $file_path",$k_video);
+        sendmessage($cid,"$t_video $file_path $video_id",$k_video);
         move_uploaded_file("https://api.telegram.org/file/bot$TOKEN/$file_path", $video_name);
     }
 }
