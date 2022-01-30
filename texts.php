@@ -1,5 +1,5 @@
 <?php
-$t_start = "salom";
-$t_reklama = "salom";
-$t_test = 'ssalom';
+$t_start = "Assalomu alaykum $first_name $last_name.
+Menga videoni yuboring men videoning hajmini kamaytirib beraman(videoning hajmi bilan birga uning sifati ham pasayadi).";
+$t_video = "Farmatini tanlang:";
 ?>
