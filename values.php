@@ -7,6 +7,7 @@ $txt = $mess->text;
 $cid = $mess->chat->id;
 $video = $mess->video;
 $video_type = $mess->video->mime_type;
+$video_id = $mess->video->file_id;
 $video_size = $mess->video->file_size;
 $video_name = $mess->video->file_name;
 $last_name = $mess->chat->last_name;
