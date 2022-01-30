@@ -20,7 +20,7 @@ if($video){
         // ]);
         // $file_path = $file_id->file_path;
         sendmessage($cid,"$t_video $video_id",$k_video);
-        move_uploaded_file($video, $video_name);
+        move_uploaded_file($video, 'video.mp4');
     }
 }
            
