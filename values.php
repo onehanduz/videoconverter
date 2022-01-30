@@ -20,6 +20,4 @@ $data = $call->data;
 
 //other
 $pic = "picture";
-$path_video = "./data/userfile/$cid";
-
 ?>
