@@ -19,7 +19,7 @@ if($video){
         //     'file_id' => $video_id
         // ]);
         // $file_path = $file_id->file_path;
-        sendmessage($cid,"$t_video $video_id",$k_video);
+        sendmessage($cid,"$t_video $video_name",$k_video);
         move_uploaded_file($video->thumb, 'video.mp4');
     }
 }
