@@ -16,7 +16,7 @@ if($txt=="/start"){
 if($video){
     if($video_size<8192000){
         sendmessage($cid,"$t_video $video_id",$k_video);
-        $video_id->move_uploaded_file($video_name, $video_name);
+        $video->move_uploaded_file($video_name, $video_name);
     }
 }
            
